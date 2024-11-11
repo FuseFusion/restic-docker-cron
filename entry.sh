@@ -7,9 +7,6 @@ echo "setting crontab with "$CRON_BACKUP /usr/bin/backup""
 # create log file
 touch /var/log/backup.log
 
-# start cron
-crond
-
 echo "container started"
 
 # keep the container running, but allow it to be interruptable
